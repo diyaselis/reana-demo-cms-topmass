@@ -1,13 +1,5 @@
-==========================================================================
  REANA example - CMS Top quark mass measurement from b-jet energy spectrum
 ==========================================================================
-
-
-.. image:: https://badges.gitter.im/Join%20Chat.svg
-   :target: https://gitter.im/reanahub/reana?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
-
-.. image:: https://img.shields.io/badge/license-MIT-blue.svg
-   :target: https://github.com/reanahub/reana-demo-cms-h4l/blob/master/LICENSE
 
 About
 =====
