@@ -5,9 +5,9 @@ About
 =====
 
 This repository provides a simplified particle physics analysis example for the
-`REANA <http://reanahub.io/>`_ reusable research data analysis plaftorm. The objective 
+[REANA](http://reanahub.io/) reusable research data analysis plaftorm. The objective 
 is to extract the top-quark mass by measuring the peak position of the energy of b-tagged 
-jets in the laboratory frame as portrayed in the CMS Data Analysis School exercises
+jets in the laboratory frame as portrayed in the [CMS Data Analysis School exercises] (https://twiki.cern.ch/twiki/bin/viewauth/CMS/CMSDASAtLPC2018)
 
 Analysis structure
 ==================
