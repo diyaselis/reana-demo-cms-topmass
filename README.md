@@ -20,8 +20,7 @@ analysis. This will permit to instantiate the analysis on the computational
 cloud and run the analysis to obtain (5) output results.
 
 
-1. Input data
--------------
+### 1. Input data
 
 The analysis takes the following inputs:
 
