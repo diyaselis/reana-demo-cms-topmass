@@ -25,7 +25,7 @@ cloud and run the analysis to obtain (5) output results.
 
 The analysis takes the following inputs:
 
-- the list of CMS runs from 2015 and 2016 included in the ``inputs`` directory:
+- the list of sample CMS runs from 2015 and 2016 included in the ``inputs`` directory:
 
   - ``samples_Run2015_25ns.json``
   - ``samples_Run2015_25ns_m169p5.json``
