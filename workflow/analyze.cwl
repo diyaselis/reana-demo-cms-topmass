@@ -23,10 +23,10 @@ stdout: analyze.log
 outputs:
   analyze.log:
     type: stdout
- # DoubleMuParked2012C_10000_Higgs.root:
+ # plotter.root:
    # type: File
     # outputBinding:
-     # glob: "results/DoubleMuParked2012C_10000_Higgs.root"
+     # glob: "results/plotter.root"
 
 arguments:
   - prefix: -c
