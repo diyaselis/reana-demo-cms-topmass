@@ -45,6 +45,8 @@ and event yields), and propagate the sources of systematic uncertainties to the
 b jet energy peak;. In the second stage, we shall fit the b jet energy peak and
 calibrate the peak measured for the set of selection criteria previously defined 
 to the expected b jet energy peak, from which the top-quark mass can be easily extracted. 
+In the third stage, we shall compare the results with the standard top-quark mass 
+measurements performed with 8 TeV data.
 
 <!-- The ``finalize`` directory
 contains the analysis code plugin for the [CMSSW](http://cms-sw.github.io/)
