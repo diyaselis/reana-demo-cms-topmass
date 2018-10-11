@@ -63,4 +63,40 @@ steps.
 This analysis example runs within the [CMSSW](http://cms-sw.github.io/)
 analysis framework that was packaged for Docker in [clelange/cmssw](https://hub.docker.com/r/clelange/cmssw/).
 
+### 4. Analysis workflow
+
+The analysis workflow is simple and consists of the above-mentioned stages:
+<!--
+.. code-block:: console
+
+                              START
+                             /     \
+                            /       \
+                           /         \
+   +-------------------------+     +------------------------+
+   | process collision data  |     | process simulated data |
+   +-------------------------+     +------------------------+
+                   \                       /
+                    \ Higgs4L1file.root   / DoubleMuParked2012C_10000_Higgs.root
+                     \                   /
+                  +-------------------------+
+                  |    produce final plot   |
+                  +-------------------------+
+                             |
+                             | mass4l_combine_userlvl3.pdf
+                             V
+                            STOP -->
+
+We shall use the [CWL](http://www.commonwl.org/v1.0/) workflow specification
+to express the computational workflow:
+
+- [workflow definition](workflow/workflow.cwl)
+
+and its individual steps:
+
+- [analyze data](workflow/analyze.cwl)
+- [fit mass peak](workflow/fit.cwl)
+- [final comparison](workflow/compare.cwl)
+
+
 
